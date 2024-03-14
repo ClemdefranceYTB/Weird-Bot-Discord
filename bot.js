@@ -21,7 +21,7 @@
                     partials: ["REACTION"]
                 });
 
-                await s4d.client.login('MTIxNzkxMTkxNTg2NzY2ODUxMA.GzhESG.YTiBVL2OHxYya0MgLpzFxdReV13-btfSqRAXvU').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
+                await s4d.client.login('YOURTOKEN').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
 
 s4d.client.on('ready', async () => {
   s4d.client.user.setActivity(String('minecraft'));
