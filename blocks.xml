@@ -1,0 +1,20 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="s4d_login" id="a.2=ZV1]eMtg58GLG+^6" x="262" y="157">
+    <value name="TOKEN">
+      <block type="text" id=";ne`~6Gfq7909x0PGhRP">
+        <field name="TEXT">MTIxNzkxMTkxNTg2NzY2ODUxMA.GzhESG.YTiBVL2OHxYya0MgLpzFxdReV13-btfSqRAXvU</field>
+      </block>
+    </value>
+  </block>
+  <block type="s4d_on_connected" id="zv1mZ)nP_2cF.h@7C,E}" x="172" y="258">
+    <statement name="STATEMENTS">
+      <block type="s4d_set_bot_game" id="Iyr!0?#AykO5txD!RVn#">
+        <value name="GAME">
+          <block type="text" id="`T!QMyLJ!`NxDiiO8?Mx">
+            <field name="TEXT">minecraft</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+</xml>
